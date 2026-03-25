@@ -15,7 +15,7 @@ knn-traffic-emotion-classification/
 │   ├── 1_K-Nearest Neighbors for Traffic Congestion Prediction.ipynb
 │   ├── 2_K-Nearest Neighbors for Multi-class Emotion Classification.ipynb
 │   ├── 3_KNN.ipynb       # Basic KNN experiments (Iris dataset)
-│   └── 4_KNN.ipynb # Hyperparameter tuning & cross-validation
+│   └── 4_KNN.ipynb       # Hyperparameter tuning & cross-validation
 │
 ├── .gitignore            # Git exclusion rules
 ├── README.md             # Project documentation
