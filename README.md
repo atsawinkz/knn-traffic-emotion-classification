@@ -2,10 +2,10 @@
 
 Comprehensive study and implementation of K-Nearest Neighbors algorithms for Traffic Congestion Prediction and Multi-class Emotion Classification.
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
-LAB_04/
+knn-traffic-emotion-classification/
 │
 ├── data/                 # Raw datasets (.csv)
 │   ├── datasets1.csv     # Traffic congestion data
@@ -15,17 +15,14 @@ LAB_04/
 │   ├── 1_K-Nearest Neighbors for Traffic Congestion Prediction.ipynb
 │   ├── 2_K-Nearest Neighbors for Multi-class Emotion Classification.ipynb
 │   ├── 3_KNN.ipynb       # Basic KNN experiments (Iris dataset)
-│   └── Assignment4_KNN.ipynb # Hyperparameter tuning & cross-validation
-│
-├── outputs/              # Saved plots and model artifacts
-├── src/                  # Source code (if applicable)
+│   └── 4_KNN.ipynb # Hyperparameter tuning & cross-validation
 │
 ├── .gitignore            # Git exclusion rules
 ├── README.md             # Project documentation
 └── requirements.txt      # Python dependencies
 ```
 
-## 🚀 Key Features
+## Key Features
 
 - **Traffic Congestion Prediction**: Synthetic data generation and modeling of traffic patterns with weather and location interactions.
 - **Emotion Classification**: NLP-based multi-class classification (Happy, Sad, Angry, Fear, Surprise, Neutral) from social media posts.
@@ -36,12 +33,12 @@ LAB_04/
 - **Hyperparameter Optimization**: Extensive tuning of `k` values and weight metrics using `GridSearchCV`.
 - **Advanced Visualization**: Comprehensive analysis of model performance and data distributions.
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
 ```bash
 git clone [repository-url]
-cd LAB_04
+cd knn-traffic-emotion-classification
 ```
 
 2. Install dependencies:
@@ -49,7 +46,7 @@ cd LAB_04
 pip install -r requirements.txt
 ```
 
-## 💻 Usage
+## Usage
 
 Open any of the notebooks in the `notebooks/` directory using Jupyter Lab or Jupyter Notebook:
 
@@ -57,7 +54,7 @@ Open any of the notebooks in the `notebooks/` directory using Jupyter Lab or Jup
 jupyter notebook notebooks/1_K-Nearest_Neighbors_for_Traffic_Congestion_Prediction.ipynb
 ```
 
-## 📝 Components
+## Components
 
 - **Preprocessing**: Feature scaling (`StandardScaler`, `MinMaxScaler`), Label encoding, and Text cleaning.
 - **Feature Engineering**: Time-based features (rush hour, weekend) and interaction terms.
